@@ -27,4 +27,24 @@ Controller <-> Service <-> Repository <-> MODEL <-> DB
 
 ![image](https://user-images.githubusercontent.com/81988377/183523226-aeae13a4-2a02-4182-a5c1-6427b137b132.png)
 
+I calculate discount and total price in services for cart which working like
+while calculating total for CartProducts[], its also calculate counts of products Vats which 8% and 18% and Quantity of product then if count of same vats which isn`t 1% more then 3 or there are same products more then 3 then code makes different discount for each different cases. then writes it DB 
+
+![image](https://user-images.githubusercontent.com/81988377/183523616-9d52561c-edf2-4344-8e0c-76990524cc3b.png)
+
+For sample postman outputs:
+
+![image](https://user-images.githubusercontent.com/81988377/183524788-d4988764-1284-4c76-be5e-b8eba97ac75f.png)
+
+![image](https://user-images.githubusercontent.com/81988377/183524831-6e709ab9-23a8-41c7-a953-f0b5087e83a4.png)
+
+For samples writing in db after created:
+
+![image](https://user-images.githubusercontent.com/81988377/183524921-65d2fc86-3aac-486b-880c-3b1d29956a0d.png)
+
+![image](https://user-images.githubusercontent.com/81988377/183524951-575c36bb-f8e1-4f85-b723-3696c253db26.png)
+
+
+
+
 
